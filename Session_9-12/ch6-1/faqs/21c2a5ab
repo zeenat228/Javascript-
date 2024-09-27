@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 650px;
+    margin: 0 auto;
+    border: 3px solid blue;
+    padding: 15px 25px;
+}
+h1 { 
+    font-size: 150%;
+}
+h2 {
+    font-size: 120%;
+    padding: .25em 0 .25em 25px;
+    cursor: pointer;
+    background: url(../../../../student1%20-%20Copy%20%5B8%5D/Session_9-12/ch6-1/faqs/images/plus.png) no-repeat left center;
+}
+h2.minus {
+    background: url(../../../../student1%20-%20Copy%20%5B8%5D/Session_9-12/ch6-1/faqs/images/minus.png) no-repeat left center;
+}
+a {
+    color: black;
+    text-decoration: none; 
+}
+a:focus, a:hover { color: blue; }
+
+div {
+    display: none;
+}
+div.open {
+    display: block;
+}
+ul {
+    padding-left: 45px;
+}
+li {
+    padding-bottom: .25em;
+}
+p {
+    padding-bottom: .25em;
+    padding-left: 25px;
+}
